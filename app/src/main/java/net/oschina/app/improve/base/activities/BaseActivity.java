@@ -38,8 +38,8 @@ public abstract class BaseActivity extends SwipeBackActivity {
     protected RequestManager mImageLoader;
     private boolean mIsDestroy;
     public static boolean IS_ACTIVE = true;
-    private static boolean isMiUi = false;
-    public static boolean hasSetStatusBarColor;//是否需要单独设置状态栏颜色
+    private static boolean isMiUi = false;        // 是否是Miui系统
+    public static boolean hasSetStatusBarColor;   //是否需要单独设置状态栏颜色
     private Fragment mFragment;
 
     @Override

@@ -26,10 +26,10 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="#F6F6F6"
-        android:paddingBottom="@dimen/lay_8"
         android:paddingLeft="@dimen/lay_16"
-        android:paddingRight="@dimen/lay_16"
         android:paddingTop="@dimen/lay_8"
+        android:paddingRight="@dimen/lay_16"
+        android:paddingBottom="@dimen/lay_8"
         android:visibility="visible">
 
         <LinearLayout
@@ -53,8 +53,8 @@
                 android:id="@+id/tv_cancel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
                 android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
                 android:text="取消"
                 android:textColor="@color/day_colorPrimary"
                 android:textSize="16sp"

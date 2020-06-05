@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">开源中国</string>
+    <string name="app_name">花匠网</string>
 
     <string name="main_tab_name_news">综合</string>
     <string name="main_tab_name_tweet">动弹</string>
@@ -207,10 +207,10 @@
     <string name="logout_success_hint">注销成功</string>
     <string name="grade">去评分</string>
 
-    <string name="osc_site">官网</string>
+    <string name="osc_site">官方网站</string>
     <string name="know_more">了解更多</string>
     <string name="git_app">Git客户端</string>
-    <string name="copyright">© 2017 OSChina.net All rights reserved.</string>
+    <string name="copyright">© 2020 花匠网 All rights reserved.</string>
 
     <string name="tip_save_image_suc">图片已保存(手机相册-> osc_img)</string>
 

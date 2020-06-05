@@ -14,12 +14,13 @@ import net.oschina.app.util.TDevice;
 public final class Setting {
     private static final String KEY_SEVER_URL = "serverUrl";
     private static final String KEY_VERSION_CODE = "versionCode";
-    public static final String KEY_APP_UNIQUE_ID = "appUniqueID";
     private static final String KEY_SYSTEM_CONFIG_TIMESTAMP = "systemConfigTimeStamp";
     private static final String KEY_LOCATION_INFO = "locationInfo";
     private static final String KEY_LOCATION_PERMISSION = "locationPermission";
     private static final String KEY_LOCATION_APP_CODE = "locationAppCode";
     private static final String KEY_SOFT_KEYBOARD_HEIGHT = "softKeyboardHeight";
+
+    public static final String KEY_APP_UNIQUE_ID = "appUniqueID";
 
     public static SharedPreferences getSettingPreferences(Context context) {
         return context.getSharedPreferences(Setting.class.getName(), Context.MODE_PRIVATE);
